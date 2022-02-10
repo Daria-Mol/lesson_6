@@ -1,0 +1,244 @@
+ @import "null.css"; 
+ /* =============================================================================================================================  */
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ @font-face {
+	font-family: 'Alegreya';
+	src: url('../fonts/Alegreya-Italic.woff2') format('woff2'), url('../fonts/Alegreya-Italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Alegreya';
+	src: url('../fonts/Alegreya-Regular.woff2') format('woff2'), url('../fonts/Alegreya-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Neucha';
+	src: url('../fonts/Neucha.woff2') format('woff2'), url('../fonts/Neucha.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url('../fonts/Philosopher-Bold.woff2') format('woff2'), url('../fonts/Philosopher-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url('../fonts/Philosopher-BoldItalic.woff2') format('woff2'), url('../fonts/Philosopher-BoldItalic.woff') format('woff');
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url('../fonts/Philosopher-Italic.woff2') format('woff2'), url('../fonts/Philosopher-Italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Philosopher';
+	src: url('../fonts/Philosopher-Regular.woff2') format('woff2'), url('../fonts/Philosopher-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+/* ============================================================================================================================ */
+	body{
+	background-color: #add8b0fd;
+	}
+	.wrapper{
+	 min-height: 100%;
+	 overflow: hidden;
+	 max-width: 1440px;
+	 background-color: #e0f1d8;
+	 margin: 0px auto;
+ 	}
+	.container{
+		max-width: 1146px;
+		margin: 0px auto;
+		padding: 0px 10px ;
+	}
+	/* ============header================================== */
+	.header {
+		font-family: 'Alegreya', serif;
+		text-align: center;
+		padding: 10px 0px;
+		margin: 0px 0px 20px 0px;
+	}
+	.menu {
+		font-size: 25px;
+		font-weight: 700;
+	}
+	a{
+		color: #47d405;
+		text-shadow: 2px 2px 10px rgb(230, 247, 2);
+	}
+	/* ===============main================================== */
+	.top {
+		text-align: center;
+		margin: 0px 0px 30px 0px;
+	}
+	p{
+		font-family: 'Pacifico', cursive;
+	}
+	.subtitle{
+		font-family: 'Neucha', cursive;
+		font-size: 35px;
+		margin: 0px 0px 25px 0px;
+		border-bottom: 10px double #014215;
+		border-radius: 20px;
+		box-shadow: inset 2px 2px 20px 10px #048d2d, 2px 2px 20px 10px #e0f005;
+		text-align: right;
+		padding: 10px 40px;
+	}
+	h3{
+		font-family: 'Philosopher', cursive;
+		font-weight: 700;
+		font-style: italic;
+		font-size: 30px;
+		margin: 0px 0px 10px 0px;
+	}
+	.title {
+		font-size: 50px;
+		font-family: 'Alegreya', serif;
+		font-style: italic;
+		margin: 0px 0px 15px 0px;
+	}
+	.image {
+		margin: 0px auto 40px auto;
+		width: 500px;
+		height: 500px;
+		overflow: hidden;
+		border-radius: 50%;
+		outline: 20px dotted #f4f804;
+		box-shadow: 2px 2px 40px 30px #f8ed57,2px 2px 100px 60px #577cf8;
+	}
+	.text {
+		display: inline;
+		font-size: 20px;
+		outline: 6px dashed #f4f804 ;
+		
+	}
+	.usa {
+		border-radius: 0px 20px 30% 20px ;
+		border: 3px solid #f4f804;
+		padding: 10px 15px;
+		box-shadow: 2px 2px 10px 10px #f8ed57,10px 10px 10px 10px #577cf8, inset  2px 2px 40px 10px #57bdf8,  inset  20px 20px 40px 40px #f8f557;
+		margin: 0px 0px 50px 0px;
+		min-width: 1146px;
+		overflow: auto;
+		
+	}
+	.usa-subtitle {
+		text-transform: uppercase;
+	}
+	
+	.usa-text1 {
+		line-height: 4;
+		width: 1600px;
+		margin: 0px 0px 10px 0px;
+	}
+	.usa-text2 {
+		letter-spacing: 10px;
+	}
+	.france {
+		border: 3px dashed #0f0280;
+		border-radius: 22% 78% 4% 96% / 81% 46% 54% 19% ;
+		padding: 20px 40px;
+		text-align: center;
+		box-shadow: -12px -10px 30px 5px #d357f8,10px 10px 10px 10px #577cf8, inset  2px 2px 40px 10px #aa57f8;
+		margin: 0px 0px 40px 0px;
+		overflow: hidden;
+	}
+	.france-subtitle {
+		opacity: 0.6;
+		text-shadow: 5px 5px 10px rgb(75, 4, 190);
+		word-spacing: 10px;
+	}
+	.france-text1 {
+		text-decoration: overline;
+	}
+	.somalia {
+		border: 5px dotted #ff7e05;
+		border-radius: 80% 50px 50px 80%;
+		padding: 10px 20px 10px 40px;
+		text-align: right;
+		box-shadow: -20px -20px 30px 5px #f83302,-20px 20px 30px 5px #ff8903, inset  10px 1px 30px 10px #f37676;
+		margin: 0px 0px 40px 0px;
+		max-height: 184px;
+		overflow: auto;
+	}
+	.somalia-subtitle {
+		text-transform: capitalize;
+		text-decoration: line-through;
+	}
+	.somalia-text1 {
+		font-size: 30px;
+	}
+	.monaco {
+		border-radius: 20px 90% 10px 20px;
+		padding: 30px 80px 10px 20px;
+		box-shadow: 20px 20px 10px 1px #f8cb02,30px 30px 30px 5px #ff8903, inset  50px 20px 50px 15px #71ee71;
+		margin: 0px 0px 40px 0px;
+		overflow: hidden;
+	}
+	.monaco-subtitle {
+		visibility: hidden;
+
+	}
+	.monaco-text1 {
+		font-family: 'Philosopher', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	.malta {
+		max-width: 600px;
+		padding: 20px;
+		border: 10px groove #0dff05;
+		border-radius: 5px;
+		margin: 0px 0px 0px auto;
+	}
+	.malta-subtitle {
+		text-decoration: underline;
+		letter-spacing: 20px;
+	}
+	.malta-text1 {
+		word-spacing: 10px;
+		font-size: 25px;
+	}
+	.india {
+		max-width: 50%;
+		padding: 20px;
+		border: 10px ridge #ff7e05;
+		border-right: none;
+		box-shadow:inset  5px 2px 50px 15px #f5ee8e, 200px 0px 200px 0px #f5ee8eb2;
+		margin: -60px 0px 10px 0px;
+	}
+	.india-subtitle {
+		text-indent: 15px;
+	}
+	.india-text1 {
+		font-family: 'Philosopher', sans-serif;
+		font-weight: 400;
+		font-size: 25px;
+		text-shadow: 2px 2px 5px rgb(245, 122, 122);
+	}
+
+/* ================footer==================================== */
+	.footer {
+		text-align: center;
+		font-size: 20px;
+		font-weight: 700;
+		color: #39035e;
+		text-shadow: 3px 3px 5px rgb(109, 3, 170);
+	}
